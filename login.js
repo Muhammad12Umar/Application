@@ -27,7 +27,7 @@ loginForm.addEventListener("submit", function (e) {
 
   if (foundUser) {
     alert("You Have Logged In Successfully!");
-    window.location.href = "index.html"; // redirect
+    window.location.href = "Home.html"; // redirect
   } else {
     errorMessage.textContent = "Invalid Email Or Password. Please Register First!";
     errorMessage.style.color = "red";

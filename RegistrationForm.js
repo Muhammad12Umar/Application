@@ -51,7 +51,7 @@ registrationForm.addEventListener("submit", function (e) {
   
   if (userExist) {
     alert("You Are Already Registered! Please Login.");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
     return; // important to stop further execution
   }
 
